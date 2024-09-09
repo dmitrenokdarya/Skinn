@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Стили для всего файла */
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    color: rgb(59, 39, 39);
+    background-color: rgb(243, 240, 236);
+}
+
+
+/* Стили для хэдэра */
+header {
+    display: flex;
+    min-width: 1340px;
+    height: 59px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+
+}
+
+.logo_img {
+    width: 86px;
+    height: 26px;
+}
+
+.header_links_ul {
+    display: flex;
+    min-width: 418px;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.header_links_a, .header_card_a, .header_card_a-2 {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.header_card {
+    display: flex;
+    min-width: 69px;
+    gap: 8px;
+}
+
+
+/* Стили для первой секции */
+.main_section {
+    display: flex;
+    min-width: 1340px;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+
+.main_section_h1_a {
+    flex-direction: column;
+
+}
+
+.main_section_h1_a_block {
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 88px;
+    width: 510px;
+    margin-bottom: 80px;
+}
+
+.main_section_a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(59, 39, 39);
+    border: 1px solid rgb(59, 39, 39);
+    border-radius: 5px;
+    padding: 13px 21px;
+}
+
+.main_img {
+    width: 938px;
+    height: 750px;
+
+}
